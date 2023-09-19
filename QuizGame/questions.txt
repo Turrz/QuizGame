@@ -1,0 +1,109 @@
+1 - What does CSS stand for? 
+
+	Computer Science Study
+
+	Cascading Style Sheets
+
+	Conventional Set Study 
+
+
+
+
+2 - What does HTML stand for?
+
+	Hacking To Make Linux
+
+	Hypertext Markup Language
+
+	Hyperphoto Make Link
+
+
+
+3 - What does PHP stand for? 
+
+	Photo Hyper Press Languge
+
+	Hypertext Preprocessor
+
+	Hypertext Provider
+
+
+
+4 - What does JavaScript do? 
+
+	Makes The Website Function 
+
+	Makes The Website's Design
+
+	Does Data Analysis 
+
+
+5 - What is Python best for?
+
+	Data Analysis
+
+	Making An Interface
+
+	Displaying A Nice 
+
+
+
+
+6 - What does VS Code Stand for?
+
+	Visual Studio Code 
+
+	Vertical Server Code
+
+	Viral SQL Code
+
+
+
+
+7 - When was Python introduced?
+
+	2003 
+
+	1989
+
+	1991
+
+	2000
+
+
+
+
+8 - When was JavaScript introduced? 
+
+	1995
+
+	1996
+
+	1999
+
+	2004
+
+
+
+9 - When was CSS introduced?
+
+	1994
+
+	1996
+
+	1995
+
+	2014
+
+
+
+
+10 - When was HTML introduced? 
+
+	1998
+
+	1990
+
+	1997
+
+	2003
