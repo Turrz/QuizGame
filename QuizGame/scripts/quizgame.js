@@ -14,82 +14,101 @@ const quizData = [
     // Question 2
     {
         question: "What does HTML stand for?",
-        a: "Hacking To Make Linux",
-        b: "Hypertext Markup Language",
-        c: "Hyperphoto Make Link",
-        d: "None of The Above!",
+        answers : {
+            a: "Hacking To Make Linux",
+            b: "Hypertext Markup Language",
+            c: "Hyperphoto Make Link",
+            d: "None of The Above!",
+        },
         correct: "b",
+    
     },
     // Question 3
     {
         question: "Hyperphoto Make Link",
-        a: "Photo Hyper Press Languge",
-        b: "Hypertext Preprocessor",
-        c: "Hypertext Provider",
-        d: "None of The Above!",
+        answers : {
+            a: "Photo Hyper Press Languge",
+            b: "Hypertext Preprocessor",
+            c: "Hypertext Provider",
+            d: "None of The Above!",
+        },
         correct: "b",
     },
     // Question 4
     {
         question: "What does JavaScript do?",
-        a: "Makes The Website Function",
-        b: "Makes The Website's Design",
-        c: "Does Data Analysis",
-        d: "None of The Above!",
+        answers : {
+            a: "Makes The Website Function",
+            b: "Makes The Website's Design",
+            c: "Does Data Analysis",
+            d: "None of The Above!",
+        },
         correct: "a",
     },
     // Question 5
     {
         question: "What is Python best for?",
-        a: "Data Analysis",
-        b: "Making An Interface",
-        c: "Displaying A Nice Image",
-        d: "None of The Above!",
+        answers : {
+            a: "Data Analysis",
+            b: "Making An Interface",
+            c: "Displaying A Nice Image",
+            d: "None of The Above!",
+        },
         correct: "a",
     },
     // Question 6
     {
         question: "What does VS Code Stand for?",
-        a: "Visual Studio Code",
-        b: "Visual Studio Code",
-        c: "Viral SQL Code",
-        d: "None of The Above!",
+        answers : {
+            a: "Visual Studio Code",
+            b: "Visual Studio Code",
+            c: "Viral SQL Code",
+            d: "None of The Above!",
+        },
         correct: "a",
     },
     // Question 7
     {
         question: "When was Python introduced?",
-        a: "2003",
-        b: "1989",
-        c: "1991",
-        d: "2000",
+        answers : {
+            a: "2003",
+            b: "1989",
+            c: "1991",
+            d: "2000",
+        },
         correct: "c",
     },
     // Question 8
     {
         question: "When was JavaScript introduced?",
-        a: "1995",
-        b: "1996",
-        c: "1999",
-        d: "2004",
+        answers : {
+            a: "1995",
+            b: "1996",
+            c: "1999",
+            d: "2004",
+        },
         correct: "",
     },
     // Question 9
     {
         question: "When was CSS introduced?",
-        a: "2010",
-        b: "1996",
-        c: "1995",
-        d: "1994",
+        answers : {
+            a: "2010",
+            b: "1996",
+            c: "1995",
+            d: "1994",
+        },
         correct: "d",
     },
     // Question 10
     {
         question: "When was HTML introduced?",
-        a: "1998",
-        b: "1991",
-        c: "1997",
-        d: "2003",
+        answers : {
+            a: "1998",
+            b: "1991",
+            c: "1997",
+            d: "2003",
+        },
         correct: "b",
     },
 
@@ -112,7 +131,7 @@ loadQuiz()
 function loadQuiz() {
 
 
-    deselectAnswer()
+    deselectAnswers()
     
     const currentQuizData = quizData[currentQuiz]
     a_text.innerText = currentQuizData.a
@@ -147,11 +166,11 @@ submitBtn.addEventListener('click', () => {
         if(currentQuiz < quizData.length) {
             loadQuiz()
         } else {
-            quiz.innerH = 
-            <h2>You answered ${score}/${quizData.length} Questions Correctly</h2>
+            quiz.innerHTML = `
+            <h2>You answered ${score}/${quizData.length} questions correctly</h2>
 
             <button onclick="location.reload()">Reload</button>
-
+            `
         }
     }
-})
+})            
